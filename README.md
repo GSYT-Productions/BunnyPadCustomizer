@@ -1,7 +1,7 @@
 # BunnyPadCustomizer
 A set of items used for customizing BunnyPad
 ## For Stylesheet creation:
-  We reccommend these tools:
+  We recommend these tools:
   - https://github.com/hustlei/QssStylesheetEditor
   - https://github.com/luolingchun/pyqss/blob/master/README-en.md
   - https://github.com/hustlei/QssStylesheetEditor
