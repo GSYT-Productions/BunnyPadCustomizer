@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Theming Resources Unavailable</title>
+<style>
+    /* Page takes full window space */
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Gradient background - matches your QSS */
+    body {
+        background: linear-gradient(135deg, #0078D7 0%, #8C49F0 50%, #F7A3C5 100%);
+        font-family: "Segoe UI", Arial, sans-serif;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* Container */
+    .message {
+        background-color: rgba(0, 0, 0, 0.3);  /* subtle glassy overlay */
+        padding: 40px 60px;
+        border-radius: 15px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+        animation: fadeIn 1.2s ease-in-out;
+    }
+
+    .message h1 {
+        font-size: 1.8em;
+        margin: 0 0 10px;
+        font-weight: 600;
+    }
+
+    .message p {
+        font-size: 1.1em;
+        margin: 0;
+        opacity: 0.9;
+    }
+
+    /* Simple fade-in animation */
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to   { opacity: 1; transform: translateY(0); }
+    }
+</style>
+</head>
+<body>
+    <div class="message">
+        <h1>We’re Updating Our Look!</h1>
+        <p>The theming resources are unavailable while we work on updating them.</p>
+    </div>
+</body>
+</html>
